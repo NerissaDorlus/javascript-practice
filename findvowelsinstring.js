@@ -5,7 +5,8 @@ let string1 = "Nerissa";
 function numberOfVowels(string) {
   let numVowels = 0;
   for (let i = 0; i < string.length; i++) {
-    if (string.includes(a, e, i, u)) return (numVowels += 1);
+    if (string.includes(a, e, i, o, u));
+    return (numVowels += 1);
   }
 }
 
