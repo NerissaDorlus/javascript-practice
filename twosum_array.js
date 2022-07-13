@@ -1,4 +1,4 @@
-//Given an arrray and a target return the indices of 2 elements that add up to the target
+//Given an array and a target return the indices of 2 elements that add up to the target
 
 let array1 = [1, 2, 5, 3, 10, 7];
 let target1 = 13;
