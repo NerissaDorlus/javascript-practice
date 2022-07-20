@@ -24,9 +24,9 @@ Output: false
 
 
 const validParen = (str)=>{
-    if(str[0]=== ")" || str[0]=== "}"|| str[0]=== "]" ){
-        return false
-    }
+    // if(str[0]=== ")" || str[0]=== "}"|| str[0]=== "]" ){
+    //     return false
+    // }
     let openingBrackets = [];
     
     for(let i = 0; i < str.length; i++){
