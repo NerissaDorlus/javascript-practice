@@ -13,3 +13,26 @@ const twosum = (arr, target)=>{
 
 //time complexity = O(N^2) Space complexity = O(N) : constant
     
+
+/* user a map
+create a set
+
+add every element to set
+find if()
+*/
+
+const twoSumWSet = (arr, target) => {
+    const sett = new set();
+    for(let i = 0; i < arr.length; i++){
+        set.add(arr[i])
+
+    }
+    for(let i = 0; i < arr.length; i++){
+        const num = target - arr[i]
+        if(set.has(num)){
+            retturn[arr[i], num]
+        }
+    }
+}
+//Time complexity: O(N) Space complexity: O(N)
+
