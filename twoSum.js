@@ -36,3 +36,25 @@ const twoSumWSet = (arr, target) => {
 }
 //Time complexity: O(N) Space complexity: O(N)
 
+/* sorting
+-sort tthe array
+-use 2 pointer algo tto find target
+*/
+
+const twoSumSort = (arr, target) => {
+    const s = arr.sort((a, b) => a - b)
+    let i = 0, j = s.length - 1
+    while(i < j){
+        const sum = s[i] + s[j];
+        if(sum > t){
+            j--;
+        }else if(sum < t){
+            i++
+        } else {
+            return[s[i], s[j]]
+        }
+    }
+}
+
+/* Time complexity: O(N)
+Space complexity: O(N) */
