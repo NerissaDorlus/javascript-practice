@@ -13,4 +13,5 @@ const twoSum = (arr, target) => {
     }
   }
 };
+
 console.log(twoSum(array1, target1));
